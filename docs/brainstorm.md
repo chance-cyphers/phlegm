@@ -9,3 +9,5 @@ Help consumers to use said API
 ### Other
 
 Postman does a good job of designing the request, but not the response
+
+Swagger does a good job of helping users to view/use an existing api, but doesn't much help the creative process
