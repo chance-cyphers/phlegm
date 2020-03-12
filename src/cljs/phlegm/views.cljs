@@ -5,7 +5,13 @@
    ))
 
 (defn main-panel []
-  (let [name (re-frame/subscribe [::subs/name])]
-    [:div
-     [:h1 "Hello from " @name]
-     ]))
+   [:div
+     [:h1 "The One True API"]
+     [:p "It's called that right now because this is for testing and multiple APIs haven't been implemented yet. No one knows yet what this example API will be fake capable of."]
+     [:button "New"]
+     [:div
+       [:span "POST "]
+       [:span "/entrant "]
+       [:span "enters a user into a race"]
+     ]
+   ])

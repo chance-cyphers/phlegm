@@ -1,4 +1,4 @@
 (ns phlegm.db)
 
 (def default-db
-  {:name "re-frame"})
+  {:name "re-frame", :blarb "goink"})
